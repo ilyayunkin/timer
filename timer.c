@@ -56,7 +56,7 @@ int main(int argc, char* argv[])
                     int mmMod = mm % 60;
                     int hh = mm / 60;
 
-                    printf("diff %dh %dm %ds (or %lf)\r\n", hh, mmMod, ssMod, seconds);
+                    printf("diff %dh %dm %ds (or %lf s)\r\n", hh, mmMod, ssMod, seconds);
                 }
             }
         }else{
