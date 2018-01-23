@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
             printf("Wrong argument! Time will not be measured\r\n");
         }
     }else{
-        printf("There should be only one arg, but there are %d\r\n", argc);
+        printf("There should be only one arg, but there are %d\r\n", argc - 1);
     }
 
     return 0;

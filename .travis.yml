@@ -1,0 +1,7 @@
+install:
+  - sudo apt-get update
+  - sudo apt install qt5-default
+
+script:
+  - qmake timer.pro
+  - make
