@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/ilyayunkin/timer.svg)](https://travis-ci.org/ilyayunkin/timer)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0452fe28d2ab4b3aa0c71dc2ec051cc4)](https://www.codacy.com/app/ilya.yunkin/timer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ilyayunkin/timer&amp;utm_campaign=Badge_Grade)
+
+[Latest release for Windows](https://github.com/ilyayunkin/timer/releases/latest)
 # timer
 Simple application for measuring time intervals in shell (cmd/bash) scripts.
 
