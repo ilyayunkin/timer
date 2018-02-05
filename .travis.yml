@@ -6,8 +6,11 @@ compiler:
   
 install:
   - sudo apt-get update
-  - sudo apt install qt5-default
+  - sudo apt install qt5-default cppcheck
 
 script:
   - qmake timer.pro
   - make
+  # Cppcheck 
+  - cppcheck -q --force --enable=warning,style,performance,portability . 2>cppcheck.log
+  - cat cppcheck.log
